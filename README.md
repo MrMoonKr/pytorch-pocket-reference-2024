@@ -43,7 +43,8 @@
   ```
   ```
   // PowerShell
-  $ (.venv-local) pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+  $ (.venv-local) pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121  
+  $ (.venv-local) pip freeze > requirements.txt
   ```
   ```
   // PowerShell
